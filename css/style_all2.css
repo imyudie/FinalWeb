@@ -807,5 +807,9 @@ footer{
         width: 90vw;
         height: 100vw;
     }
+    .introduce_box_black .text_box p.mark{
+        font-size: 1.3em;
+    
+    }
     
 }
