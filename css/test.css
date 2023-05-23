@@ -1,0 +1,36 @@
+.introduce_box .horizontal_box_black{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+}
+.introduce_box h2{
+    font-size: 2em;
+    line-height: 30px;
+    margin: 10px 0;
+}
+.introduce_box .text_box{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.1em;
+    line-height: 2.7em;
+}
+
+.introduce_box .img_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+}
+.introduce_box .img_box img{
+    width: 90%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.427);
+    
+    
+}
+.introduce_box .text_box p.mark{
+    font-size: 1.5em;
+
+}

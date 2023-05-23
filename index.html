@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style_all2.css" type="text/css" rel="stylesheet" media="all">
+    <title>home</title>
+</head>
+<body bgcolor="#eeeeee"class="center">
+    <div class="container">
+        <header>
+            <a href="apple.html"><img class="logo" src="img/apple/open_graph_logo.png"></a>
+        </header>
+        <nav class="navbar">
+
+            <div class="nav-links">
+                <a href="index.html"><img class="home" src="img/home-icon.png"></a>
+                <ul>
+                    <li><a class="title" href="html/apple.html">Apple</a>
+                        <ul>
+                            <li><a href="#">AirPods pro(第二代)</a></li>
+                            <li><a href="#">AirPods(第三代)</a></li>
+                            <li><a href="#">AirPods(第二代)</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="title" href="#">Samsung</a>
+                        <ul>
+                            <li><a href="#">Galaxy Buds2</a></li>
+                            <li><a href="#">Galaxy Buds2 Pro</a></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li><a class="title" href="#">Bose</a>
+                        <ul>
+                            <li><a href="#">Bose 無線耳塞</a></li><!--bug 1 會亂放大-->
+                            <li><a href="#">bose quietcomfort earbuds 2</a></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li><a class="title" href="#">Sennheiser</a>
+                        <ul>
+                            <li><a href="#">CX True Wireless</a></li>
+                            <li><a href="#">Momentum True Wireless 3</a></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li><a class="title" href="#">Sony</a>
+                        <ul>
+                            <li><a href="#">WF-C700N</a></li>
+                            <li><a href="#">WF-LS900N</a></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li><a class="title" href="#">Soundcore</a>
+                        <ul>
+                            <li><a href="#">Liberty Air 2 Pro</a></li>
+                            <li><a href="#">Liberty 3 Pro</a></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <img class="info-hamburger" src="img/info.png" alt="menu">
+        </nav>
+        <article>
+            <div class="slogan">
+                <h4 class="h4_white">Welcome home</h4>
+            </div>
+            
+        </article>
+
+        <footer>
+            <div class="cc">
+                <p>Copyright © 2023 cyut Department of Information Management 11114020許紘齊. 保留一切權利。</p>
+            </div>
+        </footer>
+    </div>
+    
+
+</body>
+<script>
+    const menuHamburger = document.querySelector(".info-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+    const homeSet =  document.querySelector(".home")
+    //const background =  document.querySelector(".navbar")
+    
+    menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        homeSet.classList.toggle('home-set')
+        //background.classList.toggle('background-out')
+       
+    })
+</script>
+</html>

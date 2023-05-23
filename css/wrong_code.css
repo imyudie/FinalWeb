@@ -1,0 +1,61 @@
+nav.sub {
+    grid-area: nav;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:"n1 n2 n3 n4 n5 n6 n7";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    background: #616161;
+    justify-content: center;
+    font-size:14px;
+    font-family:微軟正黑體;
+    line-height:20px;
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999; 
+}
+.n1{
+    grid-area:n1;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.n2{
+    grid-area:n2;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.n3{
+    grid-area:n3;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.n4{
+    grid-area:n4;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.n5{
+    grid-area:n5;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.n6{
+    grid-area:n6;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.n7{
+    grid-area:n7;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
