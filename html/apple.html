@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/style_all2.css" type="text/css" rel="stylesheet" media="all">
+    <link href="../css/style_all.css" type="text/css" rel="stylesheet" media="all">
     <title>apple品牌介紹</title>
 </head>
 <body bgcolor="#eeeeee"class="center">
@@ -13,19 +13,19 @@
             <a href="apple.html"><img class="logo" src="../img/apple/open_graph_logo.png"></a>
         </header>
         <nav class="navbar">
-
+            
             <div class="nav-links">
                 <a href="../index.html"><img class="home" src="../img/home-icon.png"></a>
                 <ul>
-                    <li><a class="title" href="apple.html">Apple</a>
-                        <ul>
+                    <li><a class="title a-enable" href="apple.html">Apple</a>
+                        <ul class="dropdown-menu">
                             <li><a href="#">AirPods pro(第二代)</a></li>
                             <li><a href="#">AirPods(第三代)</a></li>
                             <li><a href="#">AirPods(第二代)</a></li>
                         </ul>
                     </li>
-                    <li><a class="title" href="#">Samsung</a>
-                        <ul>
+                    <li><a class="title a-enable" href="#">Samsung</a>
+                        <ul class="dropdown-menu">
                             <li><a href="#">Galaxy Buds2</a></li>
                             <li><a href="#">Galaxy Buds2 Pro</a></li>
                             <li></li>
@@ -146,17 +146,5 @@
     
 
 </body>
-<script>
-    const menuHamburger = document.querySelector(".info-hamburger")
-    const navLinks = document.querySelector(".nav-links")
-    const homeSet =  document.querySelector(".home")
-    //const background =  document.querySelector(".navbar")
-    
-    menuHamburger.addEventListener('click',()=>{
-        navLinks.classList.toggle('mobile-menu')
-        homeSet.classList.toggle('home-set')
-        //background.classList.toggle('background-out')
-       
-    })
-</script>
+<script src="../js/mobile-menu.js"></script>
 </html>
