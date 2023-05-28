@@ -24,7 +24,7 @@ body.center{
     "article"
     "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 5vh 1fr 10vh;
+    grid-template-rows: 10vh 5vh 1fr 5vh;
 }
 header {
     grid-area: header;
