@@ -813,6 +813,22 @@ footer{
         font-size: 0.5em;
         letter-spacing: 0.2vw;
     }
+    .introduce_box_white img{
+        margin: 20px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:80vw;
+    }.introduce_box_black img{
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:80vw;
+        
+    }
     
     .products_sort_box a{
         width: 90vw;
