@@ -152,7 +152,7 @@ article .h4_black{
     justify-content: center;
     align-items: center;
     width:  100%;
-    height: 20vh;
+    height: 25vh;
 }
 
 .slogan .generic{
@@ -171,7 +171,7 @@ article .h4_black{
     justify-content: center;
     align-items: center;
     width:  100%;
-    height: 20vh;
+    height: 25vh;
 }
 
 .slogan_black .generic{
@@ -205,7 +205,7 @@ article .h4_black{
 .introduce_box_white .text_box{
     margin: 0 0 0 20px;
     padding:0;
-    width:50%;
+    width:auto;
     color:#151515;
     display: flex;
     flex-direction: column;
@@ -662,9 +662,26 @@ footer{
         left:0%;
         
     }
+    .slogan .generic{
+        position: relative;
+        color: #151515;
+        top:0   ;
+        left: 35%;
+        font-size: 0.5em;
+        letter-spacing: 0.2vw;
+    }
+    .slogan_black .generic{
+        position: relative;
+        color: #ececee;
+        top:0   ;
+        left: 35%;
+        font-size: 0.5em;
+        letter-spacing: 0.2vw;
+    }
+    
 }
 /*phone mode*/
-@media screen and (max-width:450px){
+@media screen and (max-width:500px){
     header{
         z-index:999;
     }
@@ -784,7 +801,7 @@ footer{
         position: relative;
         color: #151515;
         top:0   ;
-        left: 40%;
+        left: 30%;
         font-size: 0.5em;
         letter-spacing: 0.2vw;
     }
@@ -792,7 +809,7 @@ footer{
         position: relative;
         color: #ececee;
         top:0   ;
-        left: 40%;
+        left: 30%;
         font-size: 0.5em;
         letter-spacing: 0.2vw;
     }
@@ -817,5 +834,15 @@ footer{
         align-items: center;
         width: 98vw;
         height: auto;
+    }
+    .cc {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #d9d9d9;
+        font-size:5px;
+        letter-spacing: 0.1em;
     }
 }
